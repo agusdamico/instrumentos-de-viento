@@ -1,0 +1,29 @@
+
+En el archivo index.html y en los de mas html agregué :
+Descripción: etiqueta meta name description.agregué el párrafo : “Quenas,Quenachos,Pinkullos,Antaras,Sikus,Toyos. Aerófonos andinos realizados en bambu por músico y luthier en Salta, Argentina.También podras consultar sobre capacitaciones en lutheria y reparaciones de instrumentos musicales de viento"
+
+Palabras clave: etiqueta meta name keywords, agregué las palabras clave que: "QUENAS,SIKUS,ANTARAS,PINKULLOS,TOYOS,INSTRUMENTOS,MUSICALES,VIENTO,AEROFONOS,ANDINOS,MÚSICA,MÚSICO,LUTHIER,LUTHERIA,TALLER,SALTA,ARGENTINA,ESCUELA,VISIT,TURISMO,TURISTA,VACACIONES,BAMBU,BAMBOO,SERENATA,CAFAYATE"
+
+
+Cambie el title de todas las paginas:
+
+Sikus - Instrumentos Musicales de Viento por Juan Perez
+Reparaciones - Instrumentos Musicales de Viento por Juan Perez
+Quenas - Instrumentos Musicales de Viento por Juan Perez
+Quenachos - Instrumentos Musicales de Viento por Juan Perez
+Pinkullos - Instrumentos Musicales de Viento por Juan Perez
+Materia Prima - Bambu -  Juan Perez
+Aerófonos Andinos - Instrumentos Musicales de Viento por Juan Perez
+El Taller de Juan Perez
+Contacto de Juan Perez
+Capacitaciones - Lutheria por Juan Perez
+Biografia de Juan Perez
+
+Las otras palabras que puse en keywords van a ir dentro del contenido.
+
+
+
+
+
+
+
