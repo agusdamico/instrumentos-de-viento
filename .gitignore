@@ -1,3 +1,7 @@
+<<<<<<< HEAD
 node_modules
 /node_modules
 **/node_modules
+=======
+node_modules/
+>>>>>>> 7ad8306 (ignore)
