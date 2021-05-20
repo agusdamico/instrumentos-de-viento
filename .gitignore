@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 node_modules
 /node_modules
 **/node_modules
@@ -179,3 +180,5 @@ $RECYCLE.BIN/
 
 # End of https://www.toptal.com/developers/gitignore/api/node,windows
 >>>>>>> f110f9a (aver)
+=======
+>>>>>>> d80ca6a (Adding .gitignore from github.com/serby/GitIgnore)
