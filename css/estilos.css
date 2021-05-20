@@ -68,7 +68,11 @@
 #grilla {
   display: -ms-grid;
   display: grid;
-      grid-template-areas: "cabeza cabeza" "foto biografia " "formacion premios" "redes redes" "pie pie";
+      grid-template-areas: "cabeza cabeza"
+ "foto biografia "
+ "formacion premios"
+ "redes redes"
+ "pie pie";
   grid-column-gap: 30px;
   grid-row-gap: 20px;
 }
