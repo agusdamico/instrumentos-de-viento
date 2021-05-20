@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 node_modules
 /node_modules
 **/node_modules
@@ -182,3 +183,8 @@ $RECYCLE.BIN/
 >>>>>>> f110f9a (aver)
 =======
 >>>>>>> d80ca6a (Adding .gitignore from github.com/serby/GitIgnore)
+=======
+node_modules
+/node_modules
+**/node_modules
+>>>>>>> 57721ad (a ver)
