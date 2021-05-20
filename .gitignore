@@ -4,4 +4,20 @@ node_modules
 **/node_modules
 =======
 node_modules/
+<<<<<<< HEAD
 >>>>>>> 7ad8306 (ignore)
+=======
+/node_modules
+!**/node_modules/**
+/node_modules
+/tools/doc/node_modules
+/tools/clang-format/node_modules
+
+# NodeJS specific #
+.nyc_output/
+coverage/
+node_modules/
+npm-debug.log
+package-lock.json
+test/*.log
+>>>>>>> 9c830de (.gitignore is now working)
