@@ -1,0 +1,82 @@
+        /* flexbox*/
+        /*header********************************************/
+        
+        header {
+            display: flex;
+        }
+        /*menu**********************************************/
+        
+        nav {
+            display: flex;
+            flex-flow: row space-evenly;
+            flex-direction: row;
+            justify-content: space-evenly;
+            align-content: flex-end;
+        }
+        
+        .menu__sub {
+            display: none;
+            position: absolute;
+        }
+        
+        .menu__secundario:hover .menu__sub {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+        }
+        /*landing page*/
+        
+        .frase,
+        .cuadro-inicio {
+            display: flex;
+        }
+        
+        .frase {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-end;
+        }
+        
+        .cuadro-inicio {
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-end;
+            align-items: flex-end;
+        }
+        /*biografia**********************************/
+        
+        .biografia {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            align-content: center;
+        }
+        
+        section,
+        .bio-texto {
+            display: flex;
+            flex-direction: column;
+        }
+        
+        aside,
+        .fotos-bio {
+            display: flex;
+            flex-direction: column;
+        }
+        /*footer****************************************/
+        
+        section form,
+        .contacto-form {
+            display: flex;
+            flex-direction: column;
+        }
+        
+        footer {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+            align-content: flex-end;
+        }
