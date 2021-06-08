@@ -2,10 +2,37 @@
         height: 100vh;
     }
     
+    #grilla {
+        display: grid;
+        grid-template-areas: "cabeza cabeza cabeza" "menu menu menu" "contenido contenido contenido" "section section aside""pie pie pie";
+        grid-column-gap: 30px;
+        grid-row-gap: 20px;
+    }
+    
+    header {
+        grid-area: cabeza;
+    }
+    
+    nav {
+        grid-area: menu;
+    }
+    
+    main {
+        grid-area: contenido;
+    }
+    
+    section {
+        grid-area: section;
+    }
+    
+    aside {
+        grid-area: aside;
+    }
+    
+    footer {
+        grid-area: pie;
+    }
+    
     #gridinstrumentos {
         display: grid;
-        grid-column-start: 1;
-        grid-column-end: 4;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr;
     }

@@ -15,17 +15,17 @@
 <body>
     <div id="grilla">
         <header>
-            <a href="../index.html"><img class="logo-inicio" src=../multimedia/logodamico.png alt="logo"></a>
-            <h1 class="titulo-inicio">Daniel D'Amico <br>Aerófonos Andinos</h1>
+            <h1>
+                <a href="../index.html"><img class="logo-inicio" src=../multimedia/logodamico.png alt="logo"></a>
+            </h1>
+            <h2 class="titulo-inicio">Daniel D'Amico <br>Aerófonos Andinos</h2>
         </header>
         <nav class="menu">
             <a href="../pages/bio.html">Biografía</a>
             <ul class="menu__secundario">
                 <button class="menu__boton"><a href="../pages/eltaller.html">el taller</a></button>
                 <ul class="menu__sub">
-                    <li><a href="../pages/materiaprima.html">materia prima</a></li>
                     <li><a href="../pages/capacitaciones.html">capacitaciones</a></li>
-                    <li><a href="../pages/reparaciones.html">reparaciones</a></li>
                 </ul>
             </ul>
             <ul class="menu__secundario">
@@ -46,101 +46,108 @@
             <a href="https://www.mercadolibre.com.ar" class="tienda-online"><i class="fas fa-shopping-cart"></i></a>
         </nav>
         <main>
-            <h1 class="titulo">Capacitaciones y Escuela de Lutheria</h1>
-            <!-- Button trigger modal -->
-            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" style="margin: 30px;">
+            <h3 class="titulo">Capacitaciones y Escuela de Lutheria</h1>
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" style="margin: 30px;">
     Recibir Novedades
     </button>
-            <!-- Modal -->
-            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                <div class="modal-dialog">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <h5 class="modal-title" id="exampleModalLabel">Novedades</h5>
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-                        </div>
-                        <div class="modal-body">
-                            ...
-                        </div>
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
-                            <form>
-                                <div class="form-group row">
-                                    <label for="colFormLabelSm" class="col-sm-2 col-form-label col-form-label-sm">Email</label>
-                                    <div class="col-sm-10">
-                                        <input type="email" class="form-control form-control-sm" id="colFormLabelSm" placeholder="Ingrese su e-mail">
-                                    </div>
+                <!-- Modal -->
+                <aside>
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h4 class="modal-title" id="exampleModalLabel">Novedades</h4>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                         <span aria-hidden="true">&times;</span>
+                                    </button>
                                 </div>
-                            </form><button type="button" class="btn btn-primary">Guardar</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!--Capacitaciones--->
-            <section id="capacitaciones" class="capacitaciones">
-                <div class="row">
-                    <div class="col-sm-6">
-                        <div class="card">
-                            <div class="card-body">
-                                <h5 class="card-title">Special title treatment</h5>
-                                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                                <div class="modal-body">
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                                    <form>
+                                        <div class="form-group row">
+                                            <label for="colFormLabelSm" class="col-sm-2 col-form-label col-form-label-sm">Email</label>
+                                            <div class="col-sm-10">
+                                                <input type="email" class="form-control form-control-sm" id="colFormLabelSm" placeholder="Ingrese su e-mail">
+                                            </div>
+                                        </div>
+                                    </form><button type="button" class="btn btn-primary">Guardar</button>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-6">
-                        <div class="card">
-                            <div class="card-body">
-                                <h5 class="card-title">Special title treatment</h5>
-                                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                </aside>
+                <!--Capacitaciones--->
+                <section id="capacitaciones" class="capacitaciones">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h5 class="card-title">Exposición Museo Güemes</h5>
+                                    <p class="card-text">
+                                        <img src="../multimedia/capacitaciones-presentaciones-prensa/exposicion-museo-guemes.jpg" alt=""> With supporting text below as a natural lead-in to additional content.</p>
+                                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h5 class="card-title">Charla Concierto Argentina Resuena</h5>
+                                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                                    <img src="../multimedia/capacitaciones-presentaciones-prensa/argentina-resuena-lutheria.jpg" alt="">
+                                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="row">
-                    <div class="col-sm-6">
-                        <div class="card">
-                            <div class="card-body">
-                                <h5 class="card-title">Special title treatment</h5>
-                                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h5 class="card-title">2° Encuentro de Luthiers</h5>
+                                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                                    <img src="../multimedia/capacitaciones-presentaciones-prensa/encuentro-luthiers-ccamerica.jpg" alt="">
+                                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h5 class="card-title">III Jornadas Musicales</h5>
+                                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                                    <img src="../multimedia/capacitaciones-presentaciones-prensa/jornadas-musicales-2018.jpg" alt="">
+                                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-6">
-                        <div class="card">
-                            <div class="card-body">
-                                <h5 class="card-title">Special title treatment</h5>
-                                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h5 class="card-title">IV Jornadas Musicales 2019</h5>
+                                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                                    <img src="../multimedia/capacitaciones-presentaciones-prensa/jornadas-musicales-2019.jpg" alt="">
+                                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h5 class="card-title">Taller de Ejecución 2018</h5>
+                                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                                    <img src="../multimedia/capacitaciones-presentaciones-prensa/taller-ejecucion-2018.jpg" alt="">
+                                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="row">
-                    <div class="col-sm-6">
-                        <div class="card">
-                            <div class="card-body">
-                                <h5 class="card-title">Special title treatment</h5>
-                                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                                <a href="#" class="btn btn-primary">Go somewhere</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6">
-                        <div class="card">
-                            <div class="card-body">
-                                <h5 class="card-title">Special title treatment</h5>
-                                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                                <a href="#" class="btn btn-primary">Go somewhere</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
+                </section>
         </main>
         <footer>
             <span class="redes-sociales">
