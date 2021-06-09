@@ -61,7 +61,8 @@ footer {
     grid-template-columns: 100px 2fr 2fr 2fr 2fr auto;
     grid-template-rows: 200px auto auto auto auto auto;
     height: 100vh;
-    margin: 0px;
+    margin: 0;
+    padding: 0;
 }
 
 header {
@@ -101,7 +102,8 @@ div#grilla-taller {
     grid-template-columns: 100px 2fr 2fr 2fr 2fr auto;
     grid-template-rows: 200px auto 1fr 2fr 1fr auto;
     height: 100vh;
-    margin: 0px;
+    margin: 0;
+    padding: 0;
 }
 
 header {
@@ -136,7 +138,8 @@ footer {
     grid-template-columns: 100px 2fr 2fr 2fr 2fr auto;
     grid-template-rows: 200px auto auto auto auto auto;
     height: 100vh;
-    margin: 0px;
+    margin: 0;
+    padding: 0;
 }
 
 header {
@@ -155,6 +158,121 @@ div#musica {
 
 aside#musica-spotify {
     grid-area: 3/5/6/7;
+}
+
+footer {
+    grid-area: 6/1/7/7;
+    background-color: silver;
+}
+
+
+/*grilla actividad artistica*/
+
+div#grilla-actividad {
+    display: grid;
+    grid-template-columns: 100px 2fr 2fr 2fr 2fr auto;
+    grid-template-rows: 200px auto 1fr 2fr 1fr auto;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    grid-area: 1/1/2/7;
+    background-color: pink;
+}
+
+nav {
+    grid-area: 2/2/3/7;
+    background-color: plum;
+}
+
+main {
+    grid-area: 3/2/4/7;
+}
+
+footer {
+    grid-area: 6/1/7/7;
+    background-color: silver;
+}
+
+
+/*grilla contacto*/
+
+div#grilla-contacto {
+    display: grid;
+    grid-template-columns: 100px 2fr 2fr 2fr 2fr auto;
+    grid-template-rows: 200px auto 1fr 2fr 1fr auto;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    grid-area: 1/1/2/7;
+    background-color: pink;
+}
+
+nav {
+    grid-area: 2/2/3/7;
+    background-color: plum;
+}
+
+section#contacto {
+    grid-area: 3/3/4/5;
+}
+
+aside#img-taller {
+    grid-area: 3/5/4/7;
+    background-color: palegreen;
+}
+
+footer {
+    grid-area: 6/1/7/7;
+    background-color: silver;
+}
+
+#grilla-instrumentos {
+    display: grid;
+    grid-template-columns: 100px 2fr 2fr 2fr 2fr auto;
+    grid-template-rows: 200px auto auto auto auto auto;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    grid-area: 1/1/2/7;
+    background-color: pink;
+}
+
+nav {
+    grid-area: 2/2/3/7;
+    background-color: plum;
+}
+
+main {
+    grid-area: 3/2/4/5;
+    background-color: powderblue;
+}
+
+section#cuadro {
+    grid-area: 3/5/4/6;
+    background-color: rgb(223, 19, 172);
+}
+
+div#audio {
+    grid-area: 3/6/4/7;
+}
+
+aside {
+    grid-area: 4/6/5/7;
+    background-color: seagreen;
+}
+
+div#fotos-inicio {
+    grid-area: 5/2/6/7;
+    background-color: royalblue;
 }
 
 footer {

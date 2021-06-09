@@ -1,5 +1,10 @@
 /*header*/
 
+body {
+    margin: 0;
+    padding: 0;
+}
+
 header {
     background-image: url(../multimedia/bannercopia.JPG);
     background-size: cover;
@@ -12,7 +17,7 @@ h2 {
 
 h1 a img,
 .logo-inicio {
-    width: 100px;
+    width: 75px;
     height: auto;
     margin: 1%;
     padding: 0;
@@ -80,4 +85,12 @@ section#el-taller {
 aside#img-taller {
     margin: 0;
     padding: 0;
+}
+
+
+/*actividad*/
+
+section#capacitaciones img {
+    width: 300px;
+    height: auto;
 }
