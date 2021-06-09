@@ -125,9 +125,6 @@ footer a {
   font: normal 25px "Bebas Neue", sans serif none;
   text-decoration: none; }
 
-.border {
-  border: solid 50px #df13ac; }
-
 /*grilla landing*/
 #grilla-inicio {
   display: grid;
@@ -138,35 +135,28 @@ footer a {
   padding: 0; }
 
 header {
-  grid-area: 1/1/2/7;
-  background-color: pink; }
+  grid-area: 1/1/2/7; }
 
 nav {
-  grid-area: 2/2/3/7;
-  background-color: plum; }
+  grid-area: 2/2/3/7; }
 
 main {
-  grid-area: 3/2/4/5;
-  background-color: powderblue; }
+  grid-area: 3/2/4/5; }
 
 section#cuadro {
-  grid-area: 3/5/4/6;
-  background-color: #df13ac; }
+  grid-area: 3/5/4/6; }
 
 div#audio {
   grid-area: 3/6/4/7; }
 
 aside {
-  grid-area: 4/6/5/7;
-  background-color: seagreen; }
+  grid-area: 4/6/5/7; }
 
 div#fotos-inicio {
-  grid-area: 5/2/6/7;
-  background-color: royalblue; }
+  grid-area: 5/2/6/7; }
 
 footer {
-  grid-area: 6/1/7/7;
-  background-color: silver; }
+  grid-area: 6/1/7/7; }
 
 /*grilla bio*/
 #grilla-bio {
@@ -178,27 +168,22 @@ footer {
   padding: 0; }
 
 header {
-  grid-area: 1/1/2/7;
-  background-color: pink; }
+  grid-area: 1/1/2/7; }
 
 nav {
-  grid-area: 2/2/3/7;
-  background-color: plum; }
+  grid-area: 2/2/3/7; }
 
 section#bio-texto {
   grid-area: 3/2/6/5; }
 
 aside#fotos-bio {
-  grid-area: 3/5/6/7;
-  background-color: seagreen; }
+  grid-area: 3/5/6/7; }
 
 div#fotos-inicio {
-  grid-area: 5/2/6/7;
-  background-color: royalblue; }
+  grid-area: 5/2/6/7; }
 
 footer {
-  grid-area: 6/1/7/7;
-  background-color: silver; }
+  grid-area: 6/1/7/7; }
 
 /*grilla taller*/
 div#grilla-taller {
@@ -210,23 +195,19 @@ div#grilla-taller {
   padding: 0; }
 
 header {
-  grid-area: 1/1/2/7;
-  background-color: pink; }
+  grid-area: 1/1/2/7; }
 
 nav {
-  grid-area: 2/2/3/7;
-  background-color: plum; }
+  grid-area: 2/2/3/7; }
 
 section#el-taller {
   grid-area: 3/2/4/5; }
 
 aside#img-taller {
-  grid-area: 3/5/4/7;
-  background-color: palegreen; }
+  grid-area: 3/5/4/7; }
 
 footer {
-  grid-area: 6/1/7/7;
-  background-color: silver; }
+  grid-area: 6/1/7/7; }
 
 /*grilla musica*/
 #grilla-musica {
@@ -238,12 +219,10 @@ footer {
   padding: 0; }
 
 header {
-  grid-area: 1/1/2/7;
-  background-color: pink; }
+  grid-area: 1/1/2/7; }
 
 nav {
-  grid-area: 2/2/3/7;
-  background-color: plum; }
+  grid-area: 2/2/3/7; }
 
 div#musica {
   grid-area: 3/2/6/5; }
@@ -252,8 +231,7 @@ aside#musica-spotify {
   grid-area: 3/5/6/7; }
 
 footer {
-  grid-area: 6/1/7/7;
-  background-color: silver; }
+  grid-area: 6/1/7/7; }
 
 /*grilla actividad artistica*/
 div#grilla-actividad {
@@ -265,19 +243,16 @@ div#grilla-actividad {
   padding: 0; }
 
 header {
-  grid-area: 1/1/2/7;
-  background-color: pink; }
+  grid-area: 1/1/2/7; }
 
 nav {
-  grid-area: 2/2/3/7;
-  background-color: plum; }
+  grid-area: 2/2/3/7; }
 
 main {
   grid-area: 3/2/4/7; }
 
 footer {
-  grid-area: 6/1/7/7;
-  background-color: silver; }
+  grid-area: 6/1/7/7; }
 
 /*grilla contacto*/
 div#grilla-contacto {
@@ -289,23 +264,19 @@ div#grilla-contacto {
   padding: 0; }
 
 header {
-  grid-area: 1/1/2/7;
-  background-color: pink; }
+  grid-area: 1/1/2/7; }
 
 nav {
-  grid-area: 2/2/3/7;
-  background-color: plum; }
+  grid-area: 2/2/3/7; }
 
 section#contacto {
   grid-area: 3/3/4/5; }
 
 aside#img-taller {
-  grid-area: 3/5/4/7;
-  background-color: palegreen; }
+  grid-area: 3/5/4/7; }
 
 footer {
-  grid-area: 6/1/7/7;
-  background-color: silver; }
+  grid-area: 6/1/7/7; }
 
 #grilla-instrumentos {
   display: grid;
@@ -316,35 +287,28 @@ footer {
   padding: 0; }
 
 header {
-  grid-area: 1/1/2/7;
-  background-color: pink; }
+  grid-area: 1/1/2/7; }
 
 nav {
-  grid-area: 2/2/3/7;
-  background-color: plum; }
+  grid-area: 2/2/3/7; }
 
 main {
-  grid-area: 3/2/4/5;
-  background-color: powderblue; }
+  grid-area: 3/2/4/5; }
 
 section#cuadro {
-  grid-area: 3/5/4/6;
-  background-color: #df13ac; }
+  grid-area: 3/5/4/6; }
 
 div#audio {
   grid-area: 3/6/4/7; }
 
 aside {
-  grid-area: 4/6/5/7;
-  background-color: seagreen; }
+  grid-area: 4/6/5/7; }
 
 div#fotos-inicio {
-  grid-area: 5/2/6/7;
-  background-color: royalblue; }
+  grid-area: 5/2/6/7; }
 
 footer {
-  grid-area: 6/1/7/7;
-  background-color: silver; }
+  grid-area: 6/1/7/7; }
 
 /*menu**********************************************/
 nav {
@@ -587,6 +551,9 @@ button {
 section#cuadro img {
   width: 200px;
   height: auto; }
+
+aside#video-inicio {
+  margin-top: 5%; }
 
 div#fotos-inicio img {
   height: auto;
