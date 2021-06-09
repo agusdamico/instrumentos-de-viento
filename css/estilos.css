@@ -386,6 +386,13 @@ aside#musica-spotify {
   display: flex;
   flex-direction: column; }
 
+/*capacitaciones*/
+section#capacitaciones div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start; }
+
 /*footer****************************************/
 footer {
   display: flex;
@@ -586,8 +593,7 @@ aside#img-taller {
 
 /*actividad*/
 section#capacitaciones img {
-  width: 300px;
-  height: auto; }
+  width: 100%; }
 
 /*margenes y paddings*/
 body {
