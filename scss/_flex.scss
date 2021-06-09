@@ -51,7 +51,7 @@ div#fotos-inicio {
 
 /*biografia*/
 
-section#bio-texto {
+#bio-texto {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -108,9 +108,9 @@ section#capacitaciones div {
 div,
 .flex-instrumentos div {
     display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    justify-content: stretch;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
     align-items: flex-start;
 }
 

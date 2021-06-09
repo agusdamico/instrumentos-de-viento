@@ -22,11 +22,14 @@ h2,
 
 /*frase inicio*/
 
-div,
-.frase {
+blockquote {
     font: $fuentedos;
-    margin: 1%;
-    padding: 2%;
+    font-size: 30px;
+}
+
+cite {
+    font: $fuentetexto;
+    font-style: oblique;
 }
 
 

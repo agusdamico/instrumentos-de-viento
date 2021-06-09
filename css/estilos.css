@@ -49,11 +49,13 @@ h2,
   text-decoration: none; }
 
 /*frase inicio*/
-div,
-.frase {
+blockquote {
   font: normal "Roboto", sans serif;
-  margin: 1%;
-  padding: 2%; }
+  font-size: 30px; }
+
+cite {
+  font: normal 1.6em "Roboto", sans serif;
+  font-style: oblique; }
 
 /*menu*******************************/
 nav,
@@ -83,7 +85,7 @@ footer a {
 /*grilla landing*/
 #grilla-inicio {
   display: grid;
-  grid-template-columns: 0.5fr 0.5fr 5fr;
+  grid-template-columns: 1fr 0.5fr 5fr;
   grid-template-rows: 1.5fr auto auto auto auto auto 100px;
   height: 100vh;
   margin: 0;
@@ -293,7 +295,7 @@ div#fotos-inicio {
   align-items: flex-start; }
 
 /*biografia*/
-section#bio-texto {
+#bio-texto {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -335,9 +337,9 @@ section#capacitaciones div {
 div,
 .flex-instrumentos div {
   display: flex;
-  flex-direction: column;
-  flex-wrap: nowrap;
-  justify-content: stretch;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
   align-items: flex-start; }
 
 /*footer****************************************/
@@ -414,7 +416,7 @@ section .quena:hover,
 }
 */
 div#frase {
-  width: 50%;
+  width: 70%;
   height: auto;
   transition: height 4s, width 4s;
   color: transparent; }
@@ -470,7 +472,7 @@ header {
   background-size: cover; }
   header h1 a img,
   header .logo-inicio {
-    width: 75px;
+    width: 90px;
     height: auto;
     margin: 1%;
     padding: 0;
@@ -490,11 +492,12 @@ nav {
 
 /*contenido inicio*/
 aside#cuadro img {
-  width: 200px;
+  width: 250px;
   height: auto; }
 
 section#video-inicio {
-  margin: 10% 5% 5% 5%; }
+  margin-top: 5%;
+  margin-left: 30%; }
 
 div#fotos-inicio img {
   height: auto;
@@ -502,6 +505,9 @@ div#fotos-inicio img {
   margin-top: 5%;
   margin-bottom: 5%;
   padding: 0; }
+
+#landing {
+  margin-right: 5%; }
 
 /*biografia*/
 aside#fotos-bio {
@@ -625,11 +631,13 @@ h2,
   text-decoration: none; }
 
 /*frase inicio*/
-div,
-.frase {
+blockquote {
   font: normal "Roboto", sans serif;
-  margin: 1%;
-  padding: 2%; }
+  font-size: 30px; }
+
+cite {
+  font: normal 1.6em "Roboto", sans serif;
+  font-style: oblique; }
 
 /*menu*******************************/
 nav,
@@ -659,7 +667,7 @@ footer a {
 /*grilla landing*/
 #grilla-inicio {
   display: grid;
-  grid-template-columns: 0.5fr 0.5fr 5fr;
+  grid-template-columns: 1fr 0.5fr 5fr;
   grid-template-rows: 1.5fr auto auto auto auto auto 100px;
   height: 100vh;
   margin: 0;
@@ -869,7 +877,7 @@ div#fotos-inicio {
   align-items: flex-start; }
 
 /*biografia*/
-section#bio-texto {
+#bio-texto {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -911,9 +919,9 @@ section#capacitaciones div {
 div,
 .flex-instrumentos div {
   display: flex;
-  flex-direction: column;
-  flex-wrap: nowrap;
-  justify-content: stretch;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
   align-items: flex-start; }
 
 /*footer****************************************/
@@ -990,7 +998,7 @@ section .quena:hover,
 }
 */
 div#frase {
-  width: 50%;
+  width: 70%;
   height: auto;
   transition: height 4s, width 4s;
   color: transparent; }
@@ -1046,7 +1054,7 @@ header {
   background-size: cover; }
   header h1 a img,
   header .logo-inicio {
-    width: 75px;
+    width: 90px;
     height: auto;
     margin: 1%;
     padding: 0;
@@ -1066,11 +1074,12 @@ nav {
 
 /*contenido inicio*/
 aside#cuadro img {
-  width: 200px;
+  width: 250px;
   height: auto; }
 
 section#video-inicio {
-  margin: 10% 5% 5% 5%; }
+  margin-top: 5%;
+  margin-left: 30%; }
 
 div#fotos-inicio img {
   height: auto;
@@ -1078,6 +1087,9 @@ div#fotos-inicio img {
   margin-top: 5%;
   margin-bottom: 5%;
   padding: 0; }
+
+#landing {
+  margin-right: 5%; }
 
 /*biografia*/
 aside#fotos-bio {
