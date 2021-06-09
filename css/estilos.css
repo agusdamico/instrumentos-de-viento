@@ -72,8 +72,7 @@ ul li,
   font-size: 10px; }
 
 /*biografia*/
-section,
-.bio-texto {
+main#bio-texto div#biografia {
   font: normal "Roboto", sans serif;
   text-align: justify; }
 
@@ -129,8 +128,7 @@ nav {
   grid-area: 2/2/3/4; }
 
 main#bio-texto {
-  grid-area: 3/2/4/3;
-  background-color: pink; }
+  grid-area: 3/2/4/3; }
 
 aside#fotos-bio {
   grid-area: 3/3/4/4; }
@@ -154,8 +152,7 @@ nav {
   grid-area: 2/2/3/4; }
 
 main#taller {
-  grid-area: 3/2/4/3;
-  background-color: pink; }
+  grid-area: 3/2/4/3; }
 
 aside#img-taller {
   grid-area: 3/3/4/4; }
@@ -179,8 +176,7 @@ nav {
   grid-area: 2/2/3/4; }
 
 #musica div {
-  grid-area: 3/2/4/3;
-  background-color: pink; }
+  grid-area: 3/2/4/3; }
 
 footer {
   grid-area: 4/1/5/4; }
@@ -222,8 +218,7 @@ nav {
   grid-area: 2/2/3/4; }
 
 main div#contacto form {
-  grid-area: 3/2/4/4;
-  background-color: palevioletred; }
+  grid-area: 3/2/4/4; }
 
 footer {
   grid-area: 4/1/5/4; }
@@ -509,9 +504,6 @@ div#fotos-inicio img {
   padding: 0; }
 
 /*biografia*/
-section#bio-texto {
-  padding: 3%; }
-
 aside#fotos-bio {
   margin: 3%;
   padding: 3%;
@@ -556,10 +548,6 @@ section#capacitaciones img {
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
   /* Styles */ }
-
-nav {
-  font: normal 25px "Bebas Neue", sans serif none;
-  font-size: 1em; }
 
 /* Smartphones (landscape) ----------- */
 @media only screen and (min-width: 321px) {
@@ -660,8 +648,7 @@ ul li,
   font-size: 10px; }
 
 /*biografia*/
-section,
-.bio-texto {
+main#bio-texto div#biografia {
   font: normal "Roboto", sans serif;
   text-align: justify; }
 
@@ -717,8 +704,7 @@ nav {
   grid-area: 2/2/3/4; }
 
 main#bio-texto {
-  grid-area: 3/2/4/3;
-  background-color: pink; }
+  grid-area: 3/2/4/3; }
 
 aside#fotos-bio {
   grid-area: 3/3/4/4; }
@@ -742,8 +728,7 @@ nav {
   grid-area: 2/2/3/4; }
 
 main#taller {
-  grid-area: 3/2/4/3;
-  background-color: pink; }
+  grid-area: 3/2/4/3; }
 
 aside#img-taller {
   grid-area: 3/3/4/4; }
@@ -767,8 +752,7 @@ nav {
   grid-area: 2/2/3/4; }
 
 #musica div {
-  grid-area: 3/2/4/3;
-  background-color: pink; }
+  grid-area: 3/2/4/3; }
 
 footer {
   grid-area: 4/1/5/4; }
@@ -810,8 +794,7 @@ nav {
   grid-area: 2/2/3/4; }
 
 main div#contacto form {
-  grid-area: 3/2/4/4;
-  background-color: palevioletred; }
+  grid-area: 3/2/4/4; }
 
 footer {
   grid-area: 4/1/5/4; }
@@ -1097,9 +1080,6 @@ div#fotos-inicio img {
   padding: 0; }
 
 /*biografia*/
-section#bio-texto {
-  padding: 3%; }
-
 aside#fotos-bio {
   margin: 3%;
   padding: 3%;

@@ -54,10 +54,11 @@ ul li,
 
 /*biografia*/
 
-section,
-.bio-texto {
-    font: $fuentedos;
-    text-align: justify;
+main#bio-texto {
+    div#biografia {
+        font: $fuentedos;
+        text-align: justify;
+    }
 }
 
 footer a {
