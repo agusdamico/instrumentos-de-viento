@@ -20,6 +20,12 @@ nav a:hover {
 }
 
 button {
+    color: $colortitulos;
+    background-color: transparent;
+}
+
+button:hover {
+    color: $colorredes;
     background-color: transparent;
 }
 

@@ -9,6 +9,9 @@ $fuentedos: normal 'Roboto',
 sans serif;
 $fuentetexto: normal 1.6em 'Roboto',
 sans serif;
+
+/*header*/
+
 h2,
 .titulo-inicio {
     font: $fuentedos;
@@ -16,11 +19,18 @@ h2,
     text-decoration: none;
 }
 
-section,
-.bio-texto {
+
+/*frase inicio*/
+
+div,
+.frase {
     font: $fuentedos;
-    text-align: justify;
+    margin: 1%;
+    padding: 2%;
 }
+
+
+/*menu*******************************/
 
 nav,
 .menu ul li a {
@@ -39,6 +49,15 @@ nav a {
 ul li,
 .menu__sub a :hover {
     font-size: 10px;
+}
+
+
+/*biografia*/
+
+section,
+.bio-texto {
+    font: $fuentedos;
+    text-align: justify;
 }
 
 footer a {

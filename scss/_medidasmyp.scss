@@ -1,0 +1,62 @@
+/*header*/
+
+header {
+    background-image: url(../multimedia/bannercopia.JPG);
+    background-size: cover;
+}
+
+h2 {
+    margin-left: 10%;
+    padding: 2%;
+}
+
+h1 a img,
+.logo-inicio {
+    width: 100px;
+    height: auto;
+    margin: 1%;
+    padding: 0;
+    position: fixed;
+    z-index: 10;
+}
+
+
+/*menu*/
+
+li {
+    margin: 10px;
+}
+
+button {
+    border: none;
+}
+
+
+/*contenido inicio*/
+
+section#cuadro img {
+    width: 200px;
+    height: auto;
+}
+
+aside#fotos-bio {
+    width: 200px;
+    height: auto;
+}
+
+div#fotos-inicio img {
+    height: auto;
+    width: 20%;
+}
+
+
+/*biografia*/
+
+section#bio-texto {
+    padding: 3%;
+}
+
+aside#fotos-bio {
+    margin: 3%;
+    padding: 3%;
+}

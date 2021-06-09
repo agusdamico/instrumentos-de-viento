@@ -5,50 +5,14 @@
 @import "fonts";
 @import "grids";
 @import "flex";
-main {
-    margin: 5%;
+@import "animaciones";
+@import "medidasmyp";
+
+/*margenes y paddings*/
+
+body {
+    height: 100vh;
+    margin: 0px;
+    padding: 0px;
 }
 
-h2 {
-    margin-left: 10%;
-    padding: 2%;
-}
-
-h1 a img,
-.logo-inicio {
-    width: 100px;
-    height: auto;
-    margin: 1%;
-    padding: 0;
-    position: fixed;
-    z-index: 10;
-}
-
-li {
-    margin: 10px;
-}
-
-figure img {
-    width: 300px;
-    height: auto;
-}
-
-section,
-.fotos-bio {
-    width: 300px;
-    height: auto;
-}
-
-button {
-    border: none;
-}
-
-header {
-    background-image: url(../multimedia/bannercopia.JPG);
-    background-size: cover;
-}
-
-img {
-    width: 300px;
-    height: auto;
-}
