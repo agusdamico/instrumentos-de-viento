@@ -70,23 +70,18 @@ section .quena:hover,
 .flauta-traversa:hover {
     width: 600px;
 }
+*/
 
-.frase-inicio {
-    width: 600px;
-    height: 100px;
-    transition: height 4s, width 1s;
+div#frase {
+    width: 50%;
+    height: auto;
+    transition: height 4s, width 4s;
     color: transparent;
-    border-color: white;
-    margin: 20px;
 }
 
-.frase-inicio:hover {
-    width: 1200px;
-    height: 100px;
-    color: Peru;
-    background-color: white;
-    border-style: double;
-    border-color: Peru;
+div#frase:hover {
+    width: 100%;
+    height: auto;
 }
 
 

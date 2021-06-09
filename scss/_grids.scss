@@ -18,19 +18,16 @@ nav {
 }
 
 main {
-    grid-area: 3/2/4/5;
+    grid-area: 3/2/4/6;
 }
 
-section#cuadro {
-    grid-area: 3/5/4/6;
-}
-
-div#audio {
+aside#cuadro,
+#audio {
     grid-area: 3/6/4/7;
 }
 
-aside {
-    grid-area: 4/6/5/7;
+section#video-inicio {
+    grid-area: 4/2/5/5;
 }
 
 div#fotos-inicio {
@@ -189,12 +186,9 @@ nav {
     grid-area: 2/2/3/7;
 }
 
-section#contacto {
+div#contacto {
     grid-area: 3/3/4/5;
-}
-
-aside#img-taller {
-    grid-area: 3/5/4/7;
+    background-color: rosybrown;
 }
 
 footer {

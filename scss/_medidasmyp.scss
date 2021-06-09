@@ -43,25 +43,21 @@ button {
 
 /*contenido inicio*/
 
-section#cuadro img {
+aside#cuadro img {
     width: 200px;
     height: auto;
 }
 
-aside#video-inicio {
-    margin-top: 5%;
+section#video-inicio {
+    margin: 10% 5% 5% 5%;
 }
 
 div#fotos-inicio img {
     height: auto;
-    width: 100%;
+    width: 75%;
     margin-top: 5%;
     margin-bottom: 5%;
     padding: 0;
-}
-
-div#audio {
-    padding: 10%;
 }
 
 
