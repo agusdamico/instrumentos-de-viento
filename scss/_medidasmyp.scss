@@ -46,6 +46,13 @@ section#cuadro img {
 div#fotos-inicio img {
     height: auto;
     width: 100%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding: 0;
+}
+
+div#audio {
+    padding: 10%;
 }
 
 
@@ -60,4 +67,17 @@ aside#fotos-bio {
     padding: 3%;
     width: 200px;
     height: auto;
+}
+
+
+/*el taller*/
+
+section#el-taller {
+    margin: 5%;
+    padding: 5%;
+}
+
+aside#img-taller {
+    margin: 0;
+    padding: 0;
 }

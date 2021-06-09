@@ -72,6 +72,20 @@ aside#fotos-bio {
 }
 
 
+/*taller*/
+
+section#el-taller {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+aside#img-taller {
+    display: flex;
+}
+
+
 /*musica*/
 
 div#musica {

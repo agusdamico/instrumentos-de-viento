@@ -94,6 +94,41 @@ footer {
 }
 
 
+/*grilla taller*/
+
+div#grilla-taller {
+    display: grid;
+    grid-template-columns: 100px 2fr 2fr 2fr 2fr auto;
+    grid-template-rows: 200px auto 1fr 2fr 1fr auto;
+    height: 100vh;
+    margin: 0px;
+}
+
+header {
+    grid-area: 1/1/2/7;
+    background-color: pink;
+}
+
+nav {
+    grid-area: 2/2/3/7;
+    background-color: plum;
+}
+
+section#el-taller {
+    grid-area: 3/2/4/5;
+}
+
+aside#img-taller {
+    grid-area: 3/5/4/7;
+    background-color: palegreen;
+}
+
+footer {
+    grid-area: 6/1/7/7;
+    background-color: silver;
+}
+
+
 /*grilla musica*/
 
 #grilla-musica {
