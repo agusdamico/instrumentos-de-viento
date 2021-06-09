@@ -439,6 +439,9 @@ h1 a img,
   z-index: 10; }
 
 /*menu*/
+nav {
+  margin-bottom: 5%; }
+
 li {
   margin: 10px; }
 
@@ -450,13 +453,9 @@ section#cuadro img {
   width: 200px;
   height: auto; }
 
-aside#fotos-bio {
-  width: 200px;
-  height: auto; }
-
 div#fotos-inicio img {
   height: auto;
-  width: 20%; }
+  width: 100%; }
 
 /*biografia*/
 section#bio-texto {
@@ -464,7 +463,9 @@ section#bio-texto {
 
 aside#fotos-bio {
   margin: 3%;
-  padding: 3%; }
+  padding: 3%;
+  width: 200px;
+  height: auto; }
 
 /*margenes y paddings*/
 body {

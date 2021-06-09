@@ -23,6 +23,10 @@ h1 a img,
 
 /*menu*/
 
+nav {
+    margin-bottom: 5%;
+}
+
 li {
     margin: 10px;
 }
@@ -39,14 +43,9 @@ section#cuadro img {
     height: auto;
 }
 
-aside#fotos-bio {
-    width: 200px;
-    height: auto;
-}
-
 div#fotos-inicio img {
     height: auto;
-    width: 20%;
+    width: 100%;
 }
 
 
@@ -59,4 +58,6 @@ section#bio-texto {
 aside#fotos-bio {
     margin: 3%;
     padding: 3%;
+    width: 200px;
+    height: auto;
 }
