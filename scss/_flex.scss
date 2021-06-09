@@ -51,19 +51,10 @@ div#fotos-inicio {
 
 /*biografia*/
 
-
-/*
-.biografia {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-content: center;
-}
-*/
-
 section#bio-texto {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: flex-start;
     align-items: flex-start;
 }
@@ -76,15 +67,15 @@ aside#fotos-bio {
 
 /*taller*/
 
-section#el-taller {
+article#el-taller {
     display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
 }
 
 aside#img-taller {
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
 }
 
 
@@ -115,20 +106,13 @@ section#capacitaciones div {
 /*instrumentos*/
 
 div,
-.gridinstrumentos img {
+.flex-instrumentos div {
     display: flex;
-    flex-direction: row-reverse;
-    flex-wrap: wrap;
+    flex-direction: column;
+    flex-wrap: nowrap;
     justify-content: stretch;
     align-items: flex-start;
 }
-
-
-/*
-div,
-.subtitulos {
-    display: block;
-}*/
 
 
 /*footer****************************************/

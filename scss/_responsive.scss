@@ -1,5 +1,20 @@
 /* MEDIA QUERIES */
 
+@import "colores";
+@import "fonts";
+@import "grids";
+@import "flex";
+@import "animaciones";
+@import "medidasmyp";
+
+/*variables*/
+
+$fuentemenu: normal 25px 'Bebas Neue',
+sans serif none;
+$fuentedos: normal 'Roboto',
+sans serif;
+$fuentetexto: normal 1.6em 'Roboto',
+sans serif;
 
 /*
 @media (max-width: 480px) {
@@ -25,6 +40,11 @@
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
     /* Styles */
+}
+
+nav {
+    font: $fuentemenu;
+    font-size: 1em;
 }
 
 

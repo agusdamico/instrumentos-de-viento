@@ -8,21 +8,19 @@ body {
 header {
     background-image: url(../multimedia/bannercopia.JPG);
     background-size: cover;
-}
-
-h2 {
-    margin-left: 10%;
-    padding: 2%;
-}
-
-h1 a img,
-.logo-inicio {
-    width: 75px;
-    height: auto;
-    margin: 1%;
-    padding: 0;
-    position: fixed;
-    z-index: 10;
+    h1 a img,
+    .logo-inicio {
+        width: 75px;
+        height: auto;
+        margin: 1%;
+        padding: 0;
+        position: fixed;
+        z-index: 10;
+    }
+    h2 {
+        margin-left: 10%;
+        padding: 2%;
+    }
 }
 
 
@@ -30,14 +28,12 @@ h1 a img,
 
 nav {
     margin-bottom: 5%;
-}
-
-li {
-    margin: 10px;
-}
-
-button {
-    border: none;
+    li {
+        margin: 10px;
+    }
+    button {
+        border: none;
+    }
 }
 
 
@@ -86,6 +82,9 @@ aside#img-taller {
     margin: 0;
     padding: 0;
 }
+
+
+/*instrumentos*/
 
 
 /*actividad*/

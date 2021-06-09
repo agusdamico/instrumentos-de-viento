@@ -2,40 +2,41 @@
 
 #grilla-inicio {
     display: grid;
-    grid-template-columns: 100px 2fr 2fr 2fr 2fr auto;
-    grid-template-rows: 200px auto auto auto auto auto;
+    grid-template-columns: 0.5fr 0.5fr 5fr;
+    grid-template-rows: 1.5fr auto auto auto auto auto 100px;
     height: 100vh;
     margin: 0;
     padding: 0;
 }
 
 header {
-    grid-area: 1/1/2/7;
+    grid-area: 1/1/2/4;
 }
 
 nav {
-    grid-area: 2/2/3/7;
+    grid-area: 2/2/3/4;
 }
 
-main {
-    grid-area: 3/2/4/6;
+#landing {
+    grid-area: 3/2/4/4;
 }
 
 aside#cuadro,
 #audio {
-    grid-area: 3/6/4/7;
+    grid-area: 3/2/4/3;
+    background-color: rgb(54, 35, 27);
 }
 
 section#video-inicio {
-    grid-area: 4/2/5/5;
+    grid-area: 4/3/5/4;
 }
 
 div#fotos-inicio {
-    grid-area: 5/2/6/7;
+    grid-area: 5/2/6/4;
 }
 
 footer {
-    grid-area: 6/1/7/7;
+    grid-area: 6/1/7/4 !important;
 }
 
 
@@ -43,35 +44,32 @@ footer {
 
 #grilla-bio {
     display: grid;
-    grid-template-columns: 100px 2fr 2fr 2fr 2fr auto;
-    grid-template-rows: 200px auto auto auto auto auto;
+    grid-template-columns: 0.5fr 3fr 1.5fr;
+    grid-template-rows: 1.5fr auto auto auto;
     height: 100vh;
     margin: 0;
     padding: 0;
 }
 
 header {
-    grid-area: 1/1/2/7;
+    grid-area: 1/1/2/4;
 }
 
 nav {
-    grid-area: 2/2/3/7;
+    grid-area: 2/2/3/4;
 }
 
-section#bio-texto {
-    grid-area: 3/2/6/5;
+main#bio-texto {
+    grid-area: 3/2/4/3;
+    background-color: pink;
 }
 
 aside#fotos-bio {
-    grid-area: 3/5/6/7;
-}
-
-div#fotos-inicio {
-    grid-area: 5/2/6/7;
+    grid-area: 3/3/4/4;
 }
 
 footer {
-    grid-area: 6/1/7/7;
+    grid-area: 4/1/5/4;
 }
 
 
@@ -79,31 +77,32 @@ footer {
 
 div#grilla-taller {
     display: grid;
-    grid-template-columns: 100px 2fr 2fr 2fr 2fr auto;
-    grid-template-rows: 200px auto 1fr 2fr 1fr auto;
+    grid-template-columns: 0.5fr 1fr 3fr;
+    grid-template-rows: 1.5fr auto auto auto;
     height: 100vh;
     margin: 0;
     padding: 0;
 }
 
 header {
-    grid-area: 1/1/2/7;
+    grid-area: 1/1/2/4;
 }
 
 nav {
-    grid-area: 2/2/3/7;
+    grid-area: 2/2/3/4;
 }
 
-section#el-taller {
-    grid-area: 3/2/4/5;
+main#taller {
+    grid-area: 3/2/4/3;
+    background-color: pink;
 }
 
 aside#img-taller {
-    grid-area: 3/5/4/7;
+    grid-area: 3/3/4/4;
 }
 
 footer {
-    grid-area: 6/1/7/7;
+    grid-area: 4/1/5/4;
 }
 
 
@@ -111,31 +110,28 @@ footer {
 
 #grilla-musica {
     display: grid;
-    grid-template-columns: 100px 2fr 2fr 2fr 2fr auto;
-    grid-template-rows: 200px auto auto auto auto auto;
+    grid-template-columns: 0.5fr 3fr 3fr;
+    grid-template-rows: 1.5fr auto auto auto auto auto;
     height: 100vh;
     margin: 0;
     padding: 0;
 }
 
 header {
-    grid-area: 1/1/2/7;
+    grid-area: 1/1/2/4;
 }
 
 nav {
-    grid-area: 2/2/3/7;
+    grid-area: 2/2/3/4;
 }
 
-div#musica {
-    grid-area: 3/2/6/5;
-}
-
-aside#musica-spotify {
-    grid-area: 3/5/6/7;
+#musica div {
+    grid-area: 3/2/4/3;
+    background-color: pink;
 }
 
 footer {
-    grid-area: 6/1/7/7;
+    grid-area: 4/1/5/4;
 }
 
 
@@ -143,27 +139,27 @@ footer {
 
 div#grilla-actividad {
     display: grid;
-    grid-template-columns: 100px 2fr 2fr 2fr 2fr auto;
-    grid-template-rows: 200px auto 1fr 2fr 1fr auto;
+    grid-template-columns: 0.5fr 3fr 3fr;
+    grid-template-rows: 1.5fr auto auto auto auto auto;
     height: 100vh;
     margin: 0;
     padding: 0;
 }
 
 header {
-    grid-area: 1/1/2/7;
+    grid-area: 1/1/2/4;
 }
 
 nav {
-    grid-area: 2/2/3/7;
+    grid-area: 2/2/3/4;
 }
 
 main {
-    grid-area: 3/2/4/7;
+    grid-area: 3/2/4/4;
 }
 
 footer {
-    grid-area: 6/1/7/7;
+    grid-area: 6/1/7/4;
 }
 
 
@@ -171,67 +167,67 @@ footer {
 
 div#grilla-contacto {
     display: grid;
-    grid-template-columns: 100px 2fr 2fr 2fr 2fr auto;
-    grid-template-rows: 200px auto 1fr 2fr 1fr auto;
+    grid-template-columns: 0.5fr 3fr 3fr;
+    grid-template-rows: 1.5fr auto auto auto auto;
     height: 100vh;
     margin: 0;
     padding: 0;
 }
 
 header {
-    grid-area: 1/1/2/7;
+    grid-area: 1/1/2/4;
 }
 
 nav {
-    grid-area: 2/2/3/7;
+    grid-area: 2/2/3/4;
 }
 
-div#contacto {
-    grid-area: 3/3/4/5;
-    background-color: rosybrown;
+main div#contacto form {
+    grid-area: 3/2/4/4;
+    background-color: palevioletred;
 }
 
 footer {
-    grid-area: 6/1/7/7;
+    grid-area: 4/1/5/4;
 }
 
-#grilla-instrumentos {
+.grilla-instrumentos {
     display: grid;
-    grid-template-columns: 100px 2fr 2fr 2fr 2fr auto;
-    grid-template-rows: 200px auto auto auto auto auto;
+    grid-template-columns: 0.5fr 3fr 3fr;
+    grid-template-rows: 1.5fr auto auto auto;
     height: 100vh;
     margin: 0;
     padding: 0;
 }
 
 header {
-    grid-area: 1/1/2/7;
+    grid-area: 1/1/2/4;
 }
 
 nav {
-    grid-area: 2/2/3/7;
+    grid-area: 2/2/3/4;
 }
 
 main {
-    grid-area: 3/2/4/5;
-}
-
-section#cuadro {
-    grid-area: 3/5/4/6;
-}
-
-div#audio {
-    grid-area: 3/6/4/7;
-}
-
-aside {
-    grid-area: 4/6/5/7;
-}
-
-div#fotos-inicio {
-    grid-area: 5/2/6/7;
+    grid-area: 3/2/4/4;
 }
 
 footer {
-    grid-area: 6/1/7/7;
+    grid-area: 4/1/5/4;
+}
+
+
+/*instrumentos*/
+
+section#grid-instrumentos div {
+    h4,
+    .subtitulos {
+        padding: 3em;
+        display: grid;
+        grid-gap: 2em;
+    }
+    img {
+        padding: 2em;
+    }
+    ;
 }
